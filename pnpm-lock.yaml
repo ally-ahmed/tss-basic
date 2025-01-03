@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@cloudflare/pages-plugin-vercel-og':
+    specifier: ^0.1.2
+    version: 0.1.2
   '@fontsource-variable/inter':
     specifier: ^5.1.1
     version: 5.1.1
@@ -331,6 +334,10 @@ packages:
     engines: {node: '>=16.13'}
     dependencies:
       mime: 3.0.0
+
+  /@cloudflare/pages-plugin-vercel-og@0.1.2:
+    resolution: {integrity: sha512-aWA2pHu1R2UbOJIcSASCuViyYVEhYkZ3tWTrTnr+yLosBfksOzjecHQkCkPv/jy75hGPrn1BbtsQR+oWVFkp1g==}
+    dev: false
 
   /@cloudflare/workerd-darwin-64@1.20241218.0:
     resolution: {integrity: sha512-8rveQoxtUvlmORKqTWgjv2ycM8uqWox0u9evn3zd2iWKdou5sncFwH517ZRLI3rq9P31ZLmCQBZ0gloFsTeY6w==}

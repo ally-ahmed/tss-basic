@@ -12,6 +12,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@cloudflare/pages-plugin-vercel-og": "^0.1.2",
     "@fontsource-variable/inter": "^5.1.1",
     "@radix-ui/react-slot": "^1.1.1",
     "@tanstack/react-router": "^1.93.0",
@@ -56,4 +57,3 @@
     "wrangler": "^3.99.0"
   }
 }
-
